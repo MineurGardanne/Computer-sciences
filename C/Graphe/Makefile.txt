@@ -1,0 +1,8 @@
+main: Graphe.o main.o
+		gcc main.o Graphe.o -o main
+Graphe.o: Graphe.c Graphe.h
+		gcc -c Graphe.c
+main.o: main.c Graphe.h
+		gcc -c main.c
+clean:
+		rm -rf *.o
