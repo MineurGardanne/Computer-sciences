@@ -1,0 +1,70 @@
+********************************************************************
+**                                                                **
+**               IBM-PC Installation of DISLIN                    **
+**                                                                **
+**  Contents:  1.)  Introduction                                  **
+**             2.)  Installation of DISLIN                        **
+**             3.)  Getting DISLIN Support                        **
+**                                                                **
+**  Date   :   15.02.2020                                         **
+**  Version:   11.3 / Windows 64-bit,  Visual C++                 **
+**  Author :   Helmut Michels                                     **
+**             Dislin Software                                    **
+**             Am Hachweg 10                                      **
+**             37083 Göttingen, Germany                           **
+**  Email  :   michels@dislin.de                                  **
+********************************************************************
+
+1.)  Introduction
+
+     This file describes the  installation  of the  data  plotting
+     software DISLIN on IBM-PCs  for  the operating system Windows
+     64-bit and the Microsoft C compiler Visual C++.
+
+2.)  Installation of DISLIN
+
+     The  DISLIN version for the Microsoft Compiler Visual C++  is
+     distributed in the zipped file  dl_11_vc.zip. 
+
+     To install DISLIN, make the following steps:
+
+  a) Extract the DISLIN files in a temporary directory.
+
+  b) Run the setup program with the command
+
+                  setup
+
+     -  Choose OK
+
+     -  Give the Installation Directory where  DISLIN  should be in-
+        stalled. The default directory is C:\DISLIN.
+
+  c) Reconfigure the System
+
+     Set the DISLIN environment variable to c:\dislin and include
+     c:\dislin\win in your path. If you have installed DISLIN in a
+     different directory, you have to use that directory for the 
+     environment variables above.
+
+     The environment variables can be set or modified with the Control
+     Panel 
+    
+     (see Control Panel -> System -> Advanced -> Environment
+      Variables).
+   
+  d) Now you can compile,  link and run the example programs in the
+     DISLIN subdirectory examples with the commands
+
+                    clink    -a  exa_c
+                    clink    -a  map_c
+
+                    cpplink  -a  exa_cpp
+                    cpplink  -a  map_cpp
+
+
+3.)  Getting DISLIN Support
+
+     The DISLIN distributions can be used freely without any restriction.
+     Access to the source code is availabe via a support contract from the
+     site www.dislin.de.
+

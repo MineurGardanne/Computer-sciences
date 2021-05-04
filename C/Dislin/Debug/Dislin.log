@@ -1,0 +1,2 @@
+﻿  Dislin.cpp
+C:\Users\marwa\Documents\C\Dislin\Dislin.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'dislin.h' : No such file or directory

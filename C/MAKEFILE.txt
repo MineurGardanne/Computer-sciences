@@ -1,0 +1,11 @@
+all: windmill
+windmill: vent.o releve.o windmill.o
+		gcc -o windmillvent.o releve.o windmill.o
+vent.o : vent.c
+		gcc -o vent.o -c vent.c
+releve.o: releve.c vent.h
+		gcc -o releve.o -c releve.c
+windmill.o: windmill.c vent.h releve.h
+		gcc -o windmill.o -c windmill
+clean:
+	rm -rf *.o

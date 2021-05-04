@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1606929724 source:c:\users\marwa\documents\c\vent\main.c
+	"vent.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1606995535 c:\users\marwa\documents\c\vent\vent.h
+
+1606929724 source:c:\users\marwa\documents\c\vent\vent.c
+	"vent.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

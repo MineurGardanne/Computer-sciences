@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marwa\Documents\C\Vent\</FILEPATH>
+      <FILENAME>vent.c</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Suppression de la référence du pointeur NULL 'actuel'. </DESCRIPTION>
+    <FUNCTION>initWindmill</FUNCTION>
+    <DECORATED>initWindmill</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\marwa\Documents\C\Vent\</FILEPATH>
+        <FILENAME>vent.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\marwa\Documents\C\Vent\</FILEPATH>
+        <FILENAME>vent.c</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\marwa\Documents\C\Vent\</FILEPATH>
+        <FILENAME>vent.c</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\marwa\Documents\C\Vent\</FILEPATH>
+        <FILENAME>vent.c</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>déclaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'actuel' peut avoir la valeur NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\marwa\Documents\C\Vent\</FILEPATH>
+        <FILENAME>vent.c</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>utilisation</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'actuel' est déréférencé, mais peut encore avoir la valeur NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,2 @@
+C:\Users\marwa\Documents\C\Windmill Project\Debug\Windmill Project.exe
+C:\Users\marwa\Documents\C\Windmill Project\Debug\Windmill Project.pdb
